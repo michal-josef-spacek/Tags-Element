@@ -4,7 +4,7 @@ use warnings;
 
 # Modules.
 use Tags::Element qw(element);;
-use Test::More 'tests' => 6;
+use Test::More 'tests' => 7;
 
 # Test.
 my @ret = element('div');
@@ -71,6 +71,16 @@ is_deeply(
 		['a', 'id', '_ID_'],
 		['b', 'br'],
 		['e', 'br'],
+		['e', 'div'],
+	],
+);
+
+# Test.
+@ret = element('div', 'BAD');
+is_deeply(
+	\@ret,
+	[
+		['b', 'div'],
 		['e', 'div'],
 	],
 );
