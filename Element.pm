@@ -20,7 +20,7 @@ sub element {
 	my @attr;
 	my @content;
 	foreach my $ref (@tags) {
-		if (ref $ref eq 'HASH' && scalar keys %{$ref} > -1) {
+		if (ref $ref eq 'HASH' && scalar keys %{$ref} > 0) {
 			foreach my $key (sort keys %{$ref}) {
 				push @attr, ['a', $key, $ref->{$key}];
 			}
