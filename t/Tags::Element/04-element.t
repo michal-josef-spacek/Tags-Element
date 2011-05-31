@@ -76,11 +76,12 @@ is_deeply(
 );
 
 # Test.
-@ret = element('div', 'BAD');
+@ret = element('div', 'data');
 is_deeply(
 	\@ret,
 	[
 		['b', 'div'],
+		['d', 'data'],
 		['e', 'div'],
 	],
 );

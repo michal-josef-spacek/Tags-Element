@@ -25,7 +25,9 @@ sub element {
 				push @attr, ['a', $key, $ref->{$key}];
 			}
 		} elsif (ref $ref eq 'ARRAY') {
-			@content = @{$ref};
+			push @content, @{$ref};
+		} else {
+			push @content, ['d', $ref];
 		}
 	}
 	return (
