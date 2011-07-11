@@ -17,6 +17,7 @@ WriteMakefile(
 	'CONFIGURE_REQUIRES' => {
 		'ExtUtils::MakeMaker' => 0,
 	},
+	'LICENSE' => 'bsd',
 	'NAME' => 'Tags::Element',
 	'PREREQ_PM' => {
 		'Exporter' => 0,
