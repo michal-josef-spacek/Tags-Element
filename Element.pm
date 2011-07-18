@@ -82,7 +82,7 @@ None.
 
 =head1 SEE ALSO
 
-L<Tags(3pm)>.
+L<Tags>.
 
 =head1 AUTHOR
 
