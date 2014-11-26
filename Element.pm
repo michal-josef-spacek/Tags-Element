@@ -68,10 +68,6 @@ TODO
 
 =back
 
-=head1 ERRORS
-
- No errors.
-
 =head1 EXAMPLE
 
 TODO
