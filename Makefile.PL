@@ -3,28 +3,27 @@ use strict;
 use warnings;
 
 # Modules.
-use ExtUtils::MakeMaker;
+use inc::Module::Install;
 
 # Definition.
-WriteMakefile(
-	'AUTHOR' => 'Michal Špaček <skim@cpan.org>',
-	'BUILD_REQUIRES' => {
-		'File::Object' => 0,
-		'Test::More' => 0,
-		'Test::Pod' => 0,
-		'Test::Pod::Coverage' => 0,
-	},
-	'CONFIGURE_REQUIRES' => {
-		'ExtUtils::MakeMaker' => 0,
-	},
-	'LICENSE' => 'bsd',
-	'NAME' => 'Tags::Element',
-	'PREREQ_PM' => {
-		'Exporter' => 0,
-		'Readonly' => 0,
-	},
-	'VERSION' => 0.01,
-	'test' => {
-		'TESTS' => 't/Tags::Element/*.t',
-	},
-);
+abstract "Element utilities for 'Tags'.";
+author 'Michal Spacek <skim@cpan.org>';
+license 'bsd';
+name 'Tags-Element';
+requires 'Exporter' => 0;
+requires 'Readonly' => 0;
+resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
+	'?Name=Tags-Element';
+resources 'homepage' => 'https://github.com/tupinek/Tags-Element';
+resources 'repository' => 'git://github.com/tupinek/Tags-Element';
+test_requires 'English' => 0;
+test_requires 'File::Object' => 0.05;
+test_requires 'Test::More' => 0;
+test_requires 'Test::NoWarnings' => 0;
+test_requires 'Test::Pod' => 0;
+test_requires 'Test::Pod::Coverage' => 0;
+tests_recursive;
+version '0.01';
+
+# Run.
+WriteAll();
