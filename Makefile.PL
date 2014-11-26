@@ -13,6 +13,7 @@ name 'Tags-Element';
 readme_from 'Element.pm';
 requires 'Exporter' => 0;
 requires 'Readonly' => 0;
+requires 'perl' => '5.8.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Tags-Element';
 resources 'homepage' => 'https://github.com/tupinek/Tags-Element';
