@@ -74,7 +74,8 @@ TODO
 
 =head1 DEPENDENCIES
 
-None.
+L<Exporter>,
+L<Readonly>.
 
 =head1 SEE ALSO
 

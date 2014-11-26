@@ -15,7 +15,7 @@ EXAMPLE
     TODO
 
 DEPENDENCIES
-    None.
+    Exporter, Readonly.
 
 SEE ALSO
     Tags.
