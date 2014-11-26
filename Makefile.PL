@@ -10,6 +10,7 @@ abstract "Element utilities for 'Tags'.";
 author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Tags-Element';
+readme_from 'Element.pm';
 requires 'Exporter' => 0;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.

@@ -1,0 +1,35 @@
+NAME
+    Tags::Element - Element utilities for 'Tags'.
+
+SYNOPSIS
+    TODO
+
+DESCRIPTION
+    TODO
+
+SUBROUTINES
+    element()
+            TODO
+
+ERRORS
+     No errors.
+
+EXAMPLE
+    TODO
+
+DEPENDENCIES
+    None.
+
+SEE ALSO
+    Tags.
+
+AUTHOR
+    Michal Špaček skim@cpan.org
+
+LICENSE AND COPYRIGHT
+     © Michal Špaček 2011-2014
+     BSD 2-Clause License
+
+VERSION
+    0.01
+
