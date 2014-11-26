@@ -3,8 +3,9 @@ use strict;
 use warnings;
 
 # Modules.
-use Tags::Element qw(element);;
-use Test::More 'tests' => 8;
+use Tags::Element qw(element);
+use Test::More 'tests' => 9;
+use Test::NoWarnings;
 
 # Test.
 my @ret = element('div');
