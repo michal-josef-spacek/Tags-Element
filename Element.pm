@@ -52,25 +52,92 @@ Tags::Element - Element utilities for 'Tags'.
 
 =head1 SYNOPSIS
 
-TODO
-
-=head1 DESCRIPTION
-
-TODO
+ use Tags::Element qw(element);
+ my @tags = element($element, @data);
 
 =head1 SUBROUTINES
 
 =over 8
 
-=item C<element()>
+=item C<element($element, @data)>
 
-TODO
+ Common element helper for writing Tags code.
+ Returns array of element in Tags format.
 
 =back
 
-=head1 EXAMPLE
+=head1 EXAMPLE1
 
-TODO
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Data::Printer;
+ use Tags::Element qw(element);
+
+ # Get example element.
+ my @tags = element('div', {
+         'id' => 'foo',
+         'class' => 'bar',
+ }, 'Foo', 'Bar');
+
+ # Dump to stdout.
+ p @tags;
+
+ # Output.
+ # [
+ #     [0] [
+ #         [0] "b",
+ #         [1] "div"
+ #     ],
+ #     [1] [
+ #         [0] "a",
+ #         [1] "class",
+ #         [2] "bar"
+ #     ],
+ #     [2] [
+ #         [0] "a",
+ #         [1] "id",
+ #         [2] "foo"
+ #     ],
+ #     [3] [
+ #         [0] "d",
+ #         [1] "Foo"
+ #     ],
+ #     [4] [
+ #         [0] "d",
+ #         [1] "Bar"
+ #     ],
+ #     [5] [
+ #         [0] "e",
+ #         [1] "div"
+ #     ]
+ # ]
+
+=head1 EXAMPLE2
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Tags::Output::Raw;
+ use Tags::Element qw(element);
+
+ # Get example element.
+ my @tags = element('div', {
+         'id' => 'foo',
+         'class' => 'bar',
+ }, 'Foo', 'Bar');
+
+ # Serialize by Tags.
+ my $tags = Tags::Output::Raw->new;
+ $tags->put(@tags);
+ print $tags->flush."\n";
+
+ # Output.
+ # <div class="bar" id="foo">FooBar</div>
 
 =head1 DEPENDENCIES
 

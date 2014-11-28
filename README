@@ -2,17 +2,84 @@ NAME
     Tags::Element - Element utilities for 'Tags'.
 
 SYNOPSIS
-    TODO
-
-DESCRIPTION
-    TODO
+     use Tags::Element qw(element);
+     my @tags = element($element, @data);
 
 SUBROUTINES
-    "element()"
-            TODO
+    "element($element, @data)"
+             Common element helper for writing Tags code.
+             Returns array of element in Tags format.
 
-EXAMPLE
-    TODO
+EXAMPLE1
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use Data::Printer;
+     use Tags::Element qw(element);
+
+     # Get example element.
+     my @tags = element('div', {
+             'id' => 'foo',
+             'class' => 'bar',
+     }, 'Foo', 'Bar');
+
+     # Dump to stdout.
+     p @tags;
+
+     # Output.
+     # [
+     #     [0] [
+     #         [0] "b",
+     #         [1] "div"
+     #     ],
+     #     [1] [
+     #         [0] "a",
+     #         [1] "class",
+     #         [2] "bar"
+     #     ],
+     #     [2] [
+     #         [0] "a",
+     #         [1] "id",
+     #         [2] "foo"
+     #     ],
+     #     [3] [
+     #         [0] "d",
+     #         [1] "Foo"
+     #     ],
+     #     [4] [
+     #         [0] "d",
+     #         [1] "Bar"
+     #     ],
+     #     [5] [
+     #         [0] "e",
+     #         [1] "div"
+     #     ]
+     # ]
+
+EXAMPLE2
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use Tags::Output::Raw;
+     use Tags::Element qw(element);
+
+     # Get example element.
+     my @tags = element('div', {
+             'id' => 'foo',
+             'class' => 'bar',
+     }, 'Foo', 'Bar');
+
+     # Serialize by Tags.
+     my $tags = Tags::Output::Raw->new;
+     $tags->put(@tags);
+     print $tags->flush."\n";
+
+     # Output.
+     # <div class="bar" id="foo">FooBar</div>
 
 DEPENDENCIES
     Exporter, Readonly.
