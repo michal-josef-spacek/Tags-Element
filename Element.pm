@@ -16,10 +16,10 @@ our $VERSION = 0.01;
 
 # Common element.
 sub element {
-	my ($element, @tags) = @_;
+	my ($element, @data) = @_;
 	my @attr;
 	my @content;
-	foreach my $ref (@tags) {
+	foreach my $ref (@data) {
 		if (ref $ref eq 'HASH') {
 			foreach my $key (sort keys %{$ref}) {
 				push @attr, ['a', $key, $ref->{$key}];
