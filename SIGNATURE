@@ -1,0 +1,50 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 87b20d306a46019688ce89846ce5276831ccc3a0 Changes
+SHA1 7f69a740d07f37f09f6089cf6f5bea1ce32ab8fa Element.pm
+SHA1 e274f86dfcc92b6d3243fe3e117da1e4cdfab6c3 LICENSE
+SHA1 1f758fce04607a6866d4ab5f8a1d52e01eddc01b MANIFEST
+SHA1 3e07c7c95f6ef30d9c25d00740ca9a303ae662c4 META.yml
+SHA1 b36cd8fe2be5bfe697d648b5ee3145bfa2f52624 Makefile.PL
+SHA1 f8008265fa1d5787993fcd96cbb1433b765976f5 README
+SHA1 48fa55f95982180a347a24531df3a2aa7d201eed examples/ex1.pl
+SHA1 168b6b1e1ce8a18dd8434814ccdfe9584a5cf2b8 examples/ex2.pl
+SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
+SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
+SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
+SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
+SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
+SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
+SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 309084719cf68d7b35dbfa2f1d2483d316d5e06a t/Tags-Element/00-use.t
+SHA1 d1603973099e6d40458e34ecd6b97ad630ccc514 t/Tags-Element/01-version.t
+SHA1 b460f8d151dcdd94fa103b52e7ff2697f3ef3b60 t/Tags-Element/02-pod_coverage.t
+SHA1 0b7e0193b68ee7de6cad8c46527a177f2684a5c3 t/Tags-Element/03-pod.t
+SHA1 7c993ef1eb3a94deb79639cc66034f4239c68fa4 t/Tags-Element/04-element.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJUePggAAoJEAwa+cf4dLBaSyoH/jMq60YrLB2yh50oPk2mT/BG
+GsY1/ZFC44tP159s/Om428ApStEYz00Jy2mqdqLe0shfcf32Z5UZmZnHWA2Yh566
+4BOR1W5bVlPDV6JjMAxRSxZl6wk/x5GZYVw6Dulm0d57LRPr7aEmwZiRK9l4BJz3
+wFIZSlq9cy/r4LoiLCGU/NJrpD0xi+RX6n7M1FM6Lh13DciMirbPn8y+hVnXRqEP
+HRbsOTZZR92zTu6l2RuENPMsSES4Rhvm26ssJg41pi90J+PjWJuPTBVTgdNlLmJH
+Y/8Y7FE0djPWt/t4XIxO6EVbogq0hxfJJtq5Oy8bjAxmYIBVez4i9xzoX0Is4ZY=
+=0iCc
+-----END PGP SIGNATURE-----
