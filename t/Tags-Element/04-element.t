@@ -15,6 +15,7 @@ is_deeply(
 		['b', 'div'],
 		['e', 'div'],
 	],
+	'Get div element.',
 );
 
 # Test.
@@ -25,6 +26,7 @@ is_deeply(
 		['b', 'div'],
 		['e', 'div'],
 	],
+	'Get div element with no attributes.',
 );
 
 # Test.
@@ -37,6 +39,7 @@ is_deeply(
 		['e', 'br'],
 		['e', 'div'],
 	],
+	'Get div with inside Tags code.',
 );
 
 # Test.
@@ -48,6 +51,7 @@ is_deeply(
 		['a', 'id', '_ID_'],
 		['e', 'div'],
 	],
+	'Get div with id attribute.',
 );
 
 # Test.
@@ -61,6 +65,7 @@ is_deeply(
 		['e', 'br'],
 		['e', 'div'],
 	],
+	'Get div with id attribute and inside Tags code.',
 );
 
 # Test.
@@ -74,6 +79,7 @@ is_deeply(
 		['e', 'br'],
 		['e', 'div'],
 	],
+	'Get div with id attribute and inside Tags code - another way.',
 );
 
 # Test.
@@ -85,6 +91,7 @@ is_deeply(
 		['d', 'data'],
 		['e', 'div'],
 	],
+	'Get div with data.',
 );
 
 # Test.
@@ -97,4 +104,5 @@ is_deeply(
 		['d', 'data2'],
 		['e', 'div'],
 	],
+	'Get div with more data.',
 );
