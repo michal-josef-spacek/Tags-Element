@@ -122,8 +122,8 @@ Tags::Element - Element utilities for 'Tags'.
  use warnings;
 
  # Modules.
- use Tags::Output::Raw;
  use Tags::Element qw(element);
+ use Tags::Output::Raw;
 
  # Get example element.
  my @tags = element('div', {
