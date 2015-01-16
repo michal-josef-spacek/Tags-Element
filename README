@@ -85,7 +85,7 @@ DEPENDENCIES
     Exporter, Readonly.
 
 SEE ALSO
-    Tags.
+    Tags, Task::Tags.
 
 AUTHOR
     Michal Špaček skim@cpan.org

@@ -146,7 +146,8 @@ L<Readonly>.
 
 =head1 SEE ALSO
 
-L<Tags>.
+L<Tags>,
+L<Task::Tags>.
 
 =head1 AUTHOR
 
