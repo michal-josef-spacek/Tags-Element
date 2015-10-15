@@ -12,7 +12,7 @@ use Readonly;
 Readonly::Array our @EXPORT_OK => qw(element);
 
 # Version.
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 # Common element.
 sub element {
@@ -169,6 +169,6 @@ Michal Špaček L<skim@cpan.org>
 
 =head1 VERSION
 
-0.02
+0.03
 
 =cut
