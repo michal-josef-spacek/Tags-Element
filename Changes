@@ -3,6 +3,7 @@
  - Add comments to tests.
  - Improve SEE ALSO section in doc.
  - Sort modules in EXAMPLE2 section in doc.
+ - Update Module::Install to 1.16 version.
  - Update copyright years.
 
 0.01 2014-11-28T23:32:52+01:00
