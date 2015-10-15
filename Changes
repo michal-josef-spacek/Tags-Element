@@ -2,6 +2,7 @@
  - Add Task::Tags to SEE ALSO section in doc.
  - Add comments to tests.
  - Improve SEE ALSO section in doc.
+ - Move author tests to xt/ directory.
  - Sort modules in EXAMPLE2 section in doc.
  - Update Module::Install to 1.16 version.
  - Update copyright years.
