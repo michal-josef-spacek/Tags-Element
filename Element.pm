@@ -146,8 +146,17 @@ L<Readonly>.
 
 =head1 SEE ALSO
 
-L<Tags>,
-L<Task::Tags>.
+=over
+
+=item L<Tags>
+
+Structure oriented SGML/XML/HTML/etc. elements manipulation.
+
+=item L<Task::Tags>
+
+Install the Tags modules.
+
+=back
 
 =head1 AUTHOR
 

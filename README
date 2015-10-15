@@ -85,7 +85,11 @@ DEPENDENCIES
     Exporter, Readonly.
 
 SEE ALSO
-    Tags, Task::Tags.
+    Tags
+        Structure oriented SGML/XML/HTML/etc. elements manipulation.
+
+    Task::Tags
+        Install the Tags modules.
 
 AUTHOR
     Michal Špaček skim@cpan.org

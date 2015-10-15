@@ -1,6 +1,7 @@
 0.02
  - Add Task::Tags to SEE ALSO section in doc.
  - Add comments to tests.
+ - Improve SEE ALSO section in doc.
  - Sort modules in EXAMPLE2 section in doc.
  - Update copyright years.
 
