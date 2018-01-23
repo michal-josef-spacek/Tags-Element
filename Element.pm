@@ -164,7 +164,7 @@ Michal Josef Špaček L<skim@cpan.org>
 
 =head1 LICENSE AND COPYRIGHT
 
- © 2011-2015 Michal Josef Špaček
+ © 2011-2018 Michal Josef Špaček
  BSD 2-Clause License
 
 =head1 VERSION
