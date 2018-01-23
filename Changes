@@ -1,5 +1,6 @@
 0.03
  - Update Module::Install to 1.19 version.
+ - Update author name.
 
 0.02 2015-10-15T21:46:14+02:00
  - Add Task::Tags to SEE ALSO section in doc.
