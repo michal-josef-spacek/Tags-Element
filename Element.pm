@@ -1,11 +1,9 @@
 package Tags::Element;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Readonly;
 
 # Constants.
@@ -68,11 +66,9 @@ Tags::Element - Element utilities for 'Tags'.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Data::Printer;
  use Tags::Element qw(element);
 
@@ -117,11 +113,9 @@ Tags::Element - Element utilities for 'Tags'.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Tags::Element qw(element);
  use Tags::Output::Raw;
 
