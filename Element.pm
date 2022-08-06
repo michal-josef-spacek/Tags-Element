@@ -10,7 +10,7 @@ use Readonly;
 Readonly::Array our @EXPORT_OK => qw(element);
 
 # Version.
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 # Common element.
 sub element {
@@ -170,6 +170,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.04
+0.05
 
 =cut
