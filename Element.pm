@@ -15,6 +15,7 @@ our $VERSION = 0.04;
 # Common element.
 sub element {
 	my ($element, @data) = @_;
+
 	my @attr;
 	my @content;
 	foreach my $ref (@data) {
@@ -28,6 +29,7 @@ sub element {
 			push @content, ['d', $ref];
 		}
 	}
+
 	return (
 		['b', $element],
 		@attr ? @attr : (),
