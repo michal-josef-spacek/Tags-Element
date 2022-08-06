@@ -3,6 +3,7 @@ NAME
 
 SYNOPSIS
      use Tags::Element qw(element);
+
      my @tags = element($element, @data);
 
 SUBROUTINES

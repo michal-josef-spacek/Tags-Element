@@ -51,6 +51,7 @@ Tags::Element - Element utilities for 'Tags'.
 =head1 SYNOPSIS
 
  use Tags::Element qw(element);
+
  my @tags = element($element, @data);
 
 =head1 SUBROUTINES
