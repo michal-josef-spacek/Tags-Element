@@ -3,6 +3,7 @@
  - Improve SYNOPSIS section in doc.
  - Rename examples/ to better filenames.
  - Rewrite bugtracker to github.
+ - Rewrite owner repository name.
  - Rewrite SUBROUTINES section in doc to use =head2.
  - Update copyright years.
 
