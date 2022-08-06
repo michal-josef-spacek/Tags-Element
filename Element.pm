@@ -56,14 +56,13 @@ Tags::Element - Element utilities for 'Tags'.
 
 =head1 SUBROUTINES
 
-=over 8
+=head2 C<element($element, @data)>
 
-=item C<element($element, @data)>
+ my @tags = element($element, @data);
 
- Common element helper for writing Tags code.
- Returns array of element in Tags format.
+Common element helper for writing Tags code.
 
-=back
+Returns array of element in Tags format.
 
 =head1 EXAMPLE1
 

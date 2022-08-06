@@ -7,9 +7,12 @@ SYNOPSIS
      my @tags = element($element, @data);
 
 SUBROUTINES
-    "element($element, @data)"
-             Common element helper for writing Tags code.
-             Returns array of element in Tags format.
+  "element($element, @data)"
+     my @tags = element($element, @data);
+
+    Common element helper for writing Tags code.
+
+    Returns array of element in Tags format.
 
 EXAMPLE1
      use strict;
