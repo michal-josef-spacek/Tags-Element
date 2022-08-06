@@ -66,6 +66,8 @@ Tags::Element - Element utilities for 'Tags'.
 
 =head1 EXAMPLE1
 
+=for comment filename=element_as_tags.pl
+
  use strict;
  use warnings;
 
@@ -112,6 +114,8 @@ Tags::Element - Element utilities for 'Tags'.
  # ]
 
 =head1 EXAMPLE2
+
+=for comment filename=element_as_html.pl
 
  use strict;
  use warnings;

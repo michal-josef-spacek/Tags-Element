@@ -1,5 +1,6 @@
 0.04
  - Improve LICENSE AND COPYRIGHT section in doc.
+ - Rename examples/ to better filenames.
  - Update copyright years.
 
 0.03 2018-01-23T09:01:51+01:00
