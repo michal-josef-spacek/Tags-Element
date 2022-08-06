@@ -2,6 +2,7 @@
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SYNOPSIS section in doc.
  - Rename examples/ to better filenames.
+ - Rewrite bugtracker to github.
  - Rewrite SUBROUTINES section in doc to use =head2.
  - Update copyright years.
 

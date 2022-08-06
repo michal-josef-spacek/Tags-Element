@@ -27,7 +27,7 @@ requires:
   Readonly: 0
   perl: 5.8.0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Tags-Element
+  bugtracker: https://github.com/tupinek/Tags-Element/issues
   homepage: https://github.com/tupinek/Tags-Element
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/Tags-Element
